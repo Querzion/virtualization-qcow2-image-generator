@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# =========================================================
+#   virtualization-qcow2-image-generator.version.03.sh
+# =========================================================
+
 set -e
 
 BASE_DIR="/var/lib/libvirt/images"
