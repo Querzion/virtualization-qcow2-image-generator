@@ -39,7 +39,7 @@ Before generating VM images, it is recommended to verify that your system suppor
 
 Use:
 
-:contentReference[oaicite:0]{index=0}
+Use the [`virtualization-checker`](https://github.com/Querzion/virtualization-checker) project.
 
 Repository:
 
