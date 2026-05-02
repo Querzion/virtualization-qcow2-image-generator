@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # =========================================================
-#   virtualization-qcow2-image-generator.version.03.sh
+#   virtualization-qcow2-image-generator.version.04.sh
 # =========================================================
 
 set -e
@@ -145,12 +145,13 @@ create_vm "XFCE_NIXOS" "60G"
 create_vm "CINNAMON_MINT" "40G"
 
 # =========================================================
-# DWM
+# MANGO WM
 # =========================================================
-create_vm "DWM_ARCH" "25G"
-create_vm "DWM_ARCH_NIX" "60G"
+create_vm "MANGO_ARCH" "25G"
+create_vm "MANGO_ARCH_NIX" "60G"
 
-create_vm "DWM_NIXOS" "60G"
+create_vm "MANGO_CACHYOS" "25G"
+create_vm "MANGO_CACHYOS_NIX" "60G"
 
 echo "----------------------------------------"
 echo -e "${GREEN}All VM images processed successfully.${RESET}"
